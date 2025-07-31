@@ -127,6 +127,33 @@ header
     }
 }
 
+footer
+{
+    background-color: $tertiary-color;
+    h3
+    {
+        font-size: 1.5em;
+    }
+    ul
+        {
+            li
+            {
+                margin-bottom: 10px;
+                a
+                {
+                    color:#fff;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    
+        .spotlight
+        {
+            border-top: 2px solid rgba($color: $primary-white, $alpha: 0.10);
+            border-bottom: 2px solid rgba($color: $primary-white, $alpha: 0.10);
+        }
+}
+
 .section-1
 {
     .swiper
@@ -179,14 +206,37 @@ header
         p{
 font-size: 1.2em;
         };
+
+        &:hover
+        {
+            color: $primary-color;
+        }
     }
 }
 
 .price
 {
     font-size: 1.2em;
+    padding-bottom: 20px;
     s{
 color: rgba($color: $primary-black, $alpha: 0.5)
     };
 }
+}
+
+@media (min-width:200px) and (max-width:768px)
+{
+    .section-1
+    {
+        .swiper
+        {
+                .swiper-wrapper
+                {
+                        .swiper-slide
+                    {
+                            height: 400px;
+                    }
+                }
+        }
+    }
 }
