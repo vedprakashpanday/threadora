@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from './common/Layout'
 import Product1 from '../assets/images/mens/1.jpg';
+import { Link } from 'react-router-dom';
 
 const shop = () => {
   return (
@@ -76,9 +77,9 @@ const shop = () => {
                           </div>
           
                           <div className="card-body pt-3">
-                            <a href="">
+                            <Link to="/product">
                             <p>Men's Check Shirt</p>
-                            </a>
+                            </Link>
           
                             <div className="price">
                               $50 <s>$80</s>
@@ -94,9 +95,9 @@ const shop = () => {
                           </div>
           
                           <div className="card-body pt-3">
-                            <a href="">
+                           <Link to="/product">
                             <p>Men's Check Shirt</p>
-                            </a>
+                            </Link>
           
                             <div className="price">
                               $50 <s>$80</s>
@@ -112,9 +113,9 @@ const shop = () => {
                           </div>
           
                           <div className="card-body pt-3">
-                            <a href="">
+                           <Link to="/product">
                             <p>Men's Check Shirt</p>
-                            </a>
+                            </Link>
           
                             <div className="price">
                               $50 <s>$80</s>
@@ -130,9 +131,9 @@ const shop = () => {
                           </div>
           
                           <div className="card-body pt-3">
-                            <a href="">
+                          <Link to="/product">
                             <p>Men's Check Shirt</p>
-                            </a>
+                            </Link>
           
                             <div className="price">
                               $50 <s>$80</s>
@@ -148,9 +149,9 @@ const shop = () => {
                           </div>
           
                           <div className="card-body pt-3">
-                            <a href="">
+                           <Link to="/product">
                             <p>Men's Check Shirt</p>
-                            </a>
+                            </Link>
           
                             <div className="price">
                               $50 <s>$80</s>
@@ -166,9 +167,9 @@ const shop = () => {
                           </div>
           
                           <div className="card-body pt-3">
-                            <a href="">
+                            <Link to="/product">
                             <p>Men's Check Shirt</p>
-                            </a>
+                            </Link>
           
                             <div className="price">
                               $50 <s>$80</s>
@@ -184,9 +185,9 @@ const shop = () => {
                           </div>
           
                           <div className="card-body pt-3">
-                            <a href="">
+                           <Link to="/product">
                             <p>Men's Check Shirt</p>
-                            </a>
+                            </Link>
           
                             <div className="price">
                               $50 <s>$80</s>
@@ -202,9 +203,9 @@ const shop = () => {
                           </div>
           
                           <div className="card-body pt-3">
-                            <a href="">
+                           <Link to="/product">
                             <p>Men's Check Shirt</p>
-                            </a>
+                            </Link>
           
                             <div className="price">
                               $50 <s>$80</s>

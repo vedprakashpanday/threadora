@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMoneyBillWave, faMoneyCheckDollar, faUser } from '@fortawesome/free-solid-svg-icons';
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
 import { faTruck } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -41,10 +42,10 @@ const Header = () => {
               <a href="" className='ms-3'>
                 <FontAwesomeIcon icon={faUser} />
               </a>
-              <a href="" className='ms-3'>
+              <Link to="/cart" className='ms-3'>
                 <FontAwesomeIcon icon={faCartShopping} />
 
-              </a>
+              </Link>
 
             </div>
           </Navbar.Collapse>
