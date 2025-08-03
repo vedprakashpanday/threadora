@@ -4,7 +4,6 @@ import FeaturedProducts from './common/FeaturedProducts';
 import Hero from './common/Hero';
 import Layout from './common/Layout';
 
-
 const home = () => {
   return (
      <>
